@@ -27,3 +27,8 @@
 
 /* Editorial Selected Work composition */
 @media(min-width:901px){.work .work-grid{grid-template-columns:7fr 5fr;grid-auto-flow:row;gap:7vw 4vw;align-items:start}.work .project{grid-row:auto;margin:0}.work .project:nth-child(1){grid-column:1;grid-row:1}.work .project:nth-child(2){grid-column:2;grid-row:1;margin-top:5vw}.work .project:nth-child(3){grid-column:1;grid-row:2;width:78%;margin-top:1vw;margin-left:8%}.work .project:nth-child(4){grid-column:2;grid-row:2;margin-top:-1vw}.work .project-large .art,.work .project .art{min-height:0;height:auto}.work .project-meta{padding-top:12px;grid-template-columns:1fr 1fr}.work .project-meta span:last-child{text-align:right}}@media(min-width:701px) and (max-width:900px){.work .work-grid{grid-template-columns:1.15fr .85fr;gap:8vw 3vw}.work .project-large{grid-row:auto}.work .project:nth-child(2){margin-top:4vw}.work .project:nth-child(3){margin-top:3vw}.work .project:nth-child(4){margin-top:-1vw}.work .project-meta{grid-template-columns:1fr 1fr}}@media(max-width:700px){.work .project-meta{padding-top:12px;grid-template-columns:1fr 1fr}.work .project-meta span:last-child{text-align:right}}
+
+.brand-logo{display:block;width:80px;height:auto;max-height:32px;object-fit:contain}@media(max-width:700px){.brand-logo{width:65px;max-height:28px}}
+
+/* Navbar logo scale */
+.brand-logo{width:105px;height:auto;max-height:none;display:block}@media(min-width:701px) and (max-width:1000px){.brand-logo{width:90px}}@media(max-width:700px){.brand-logo{width:75px}}
