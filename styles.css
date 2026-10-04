@@ -32,3 +32,6 @@
 
 /* Navbar logo scale */
 .brand-logo{width:105px;height:auto;max-height:none;display:block}@media(min-width:701px) and (max-width:1000px){.brand-logo{width:90px}}@media(max-width:700px){.brand-logo{width:75px}}
+
+/* Editorial text wordmark */
+.brand-wordmark{display:flex;flex-direction:column;align-items:center;justify-content:center;width:110px;line-height:1;color:var(--ink)}.brand-wordmark-top{display:flex;align-items:center;justify-content:center;gap:7px;width:100%}.brand-wordmark-top i{display:block;width:18px;height:1px;background:var(--line);flex:0 0 auto}.brand-wordmark-top b{font-family:Georgia,'Times New Roman',serif;font-size:31px;font-weight:600;letter-spacing:-.08em}.brand-wordmark-sub{margin-top:5px;font:500 8px 'DM Sans',Arial,sans-serif;letter-spacing:3.5px;text-indent:3.5px}.brand-wordmark:focus-visible{outline:1px solid var(--ink);outline-offset:5px}@media(min-width:701px) and (max-width:1000px){.brand-wordmark{width:95px}.brand-wordmark-top b{font-size:28px}.brand-wordmark-top i{width:14px}.brand-wordmark-sub{font-size:7px;letter-spacing:3px;text-indent:3px}}@media(max-width:700px){.brand-wordmark{width:84px}.brand-wordmark-top b{font-size:25px}.brand-wordmark-top i{width:11px}.brand-wordmark-sub{margin-top:4px;font-size:7px;letter-spacing:2.7px;text-indent:2.7px}}
