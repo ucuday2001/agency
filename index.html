@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BVR Studio is an email-first creative partner for ecommerce brands."
+    />
+    <title>BVR Studio — Beyond the Inbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .hero {
+        height: 100svh;
+        min-height: 680px;
+        padding-top: 118px;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+      }
+      .hero-title {
+        font-size: clamp(78px, 12.5vw, 190px);
+        line-height: 0.8;
+        margin: clamp(32px, 6vh, 75px) 0 clamp(30px, 5vh, 62px);
+        animation: heroGroupIn 0.9s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+      }
+      .hero-title .indent {
+        margin-left: 9vw;
+      }
+      @keyframes heroGroupIn {
+        from {
+          opacity: 0;
+          transform: translateY(22px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      @media (max-width: 700px) {
+        .hero {
+          height: 100svh;
+          min-height: 680px;
+          padding-top: 105px;
+          padding-bottom: 35px;
+        }
+        .hero-title {
+          font-size: 18vw;
+          line-height: 0.82;
+          margin: clamp(35px, 9vh, 75px) 0 clamp(28px, 6vh, 55px);
+        }
+        .hero-title .indent {
+          margin-left: 5vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <header class="nav-wrap">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="BVR Studio home"
+          ><span class="brand-mark">BVR</span><span>STUDIO</span></a
+        >
+        <div class="nav-links">
+          <a href="#work">Work</a><a href="#services">Services</a
+          ><a href="#process">Process</a><a href="#about">About</a>
+        </div>
+        <a class="nav-cta" href="#contact">Let's Work <span>↗</span></a>
+        <button class="menu-btn" aria-label="Open menu"><i></i><i></i></button>
+      </nav>
+      <div class="mobile-menu">
+        <a href="#work">Work</a><a href="#services">Services</a
+        ><a href="#process">Process</a><a href="#about">About</a
+        ><a href="#contact">Let's Work ↗</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad reveal">
+        <div class="hero-title">
+          <span>BEYOND</span><span class="indent">THE <em>INBOX.</em></span>
+        </div>
+        <div class="hero-bottom">
+          <p>
+            BVR Studio is an email-first creative partner for ecommerce brands.
+            We create campaigns, WhatsApp experiences, design and copy built to
+            make people stop, open and act.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#contact"
+              >Start a project <span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee">
+        <div class="marquee-track">
+          EMAIL <b>•</b> WHATSAPP <b>•</b> CREATIVE <b>•</b> COPY
+          <b>•</b> RETENTION <b>•</b> CAMPAIGNS <b>•</b> EMAIL <b>•</b> WHATSAPP
+          <b>•</b> CREATIVE <b>•</b> COPY <b>•</b>
+        </div>
+      </div>
+
+      <section id="about" class="intro section-pad reveal">
+        <div class="intro-label">OUR POINT OF VIEW</div>
+        <div class="intro-main">
+          <h2>
+            <span>WE DON'T JUST MAKE<br />EMAILS.</span>
+            <span>WE MAKE THEM<br /><em>WORTH OPENING.</em></span>
+          </h2>
+        </div>
+        <div class="intro-bottom">
+          <p>
+            Every campaign has a job. We combine sharp creative direction,
+            conversion-focused design and clear messaging to make ecommerce
+            communication impossible to ignore.
+          </p>
+          <span class="intro-services">EMAIL · WHATSAPP · CREATIVE · COPY</span>
+        </div>
+      </section>
+
+      <section id="services" class="services section-pad">
+        <div class="section-heading reveal">
+          <h2>WHAT WE<br /><em>DO</em></h2>
+        </div>
+        <div class="service-list">
+          <article class="service reveal">
+            <div>
+              <h3>Email campaigns</h3>
+              <p>
+                Campaign concepts, promotional emails, product launches,
+                seasonal campaigns and retention communications.
+              </p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service reveal">
+            <div>
+              <h3>WhatsApp campaigns</h3>
+              <p>
+                Campaign-led WhatsApp creatives designed for direct and timely
+                customer communication.
+              </p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service reveal">
+            <div>
+              <h3>Email + WhatsApp design</h3>
+              <p>
+                Visual systems, campaign art direction, product storytelling and
+                conversion-focused layouts.
+              </p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service reveal">
+            <div>
+              <h3>Copy + campaign strategy</h3>
+              <p>
+                Subject lines, headlines, body copy, CTAs and campaign messaging
+                built around the customer and objective.
+              </p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="work section-pad">
+        <div class="work-intro reveal">
+          <div>
+            <h2>CAMPAIGNS BUILT<br />TO LOOK LIKE THE<br /><em>BRAND.</em></h2>
+          </div>
+          <p>Campaigns built to look like the brand — and move the customer.</p>
+        </div>
+        <div class="work-grid">
+          <article class="project project-large reveal">
+            <div class="art art-rose">
+              <img src="images/cat1.png" alt="project img 1" />
+            </div>
+            <div class="project-meta">
+              <b>AIZA</b><span>Beauty</span>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="art art-yellow">
+              <img src="images/cat2.png" alt="project img 2" />
+            </div>
+            <div class="project-meta">
+              <b>EAT ANY TIME</b><span>Food</span>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="art art-blue">
+              <img src="images/cat3.png" alt="project img 3" />
+            </div>
+            <div class="project-meta">
+              <b>CAI</b><span>Footwear</span>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="art art-blue">
+              <img src="images/cat4.png" alt="project img 4" />
+            </div>
+            <div class="project-meta">
+              <b>JHA JI</b><span>Food</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="process" class="process section-pad">
+        <h2>FROM BRIEF<br />TO <em>INBOX.</em></h2>
+        <div class="steps">
+          <div class="step">
+            <h3>Understand</h3>
+            <p>Brand, audience, product, offer and campaign objective.</p>
+          </div>
+          <div class="step">
+            <h3>Concept</h3>
+            <p>Find the hook, message and creative direction.</p>
+          </div>
+          <div class="step">
+            <h3>Create</h3>
+            <p>Design the visual system, copy and campaign experience.</p>
+          </div>
+          <div class="step">
+            <h3>Deliver</h3>
+            <p>Final campaign assets ready for deployment.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="why section-pad reveal">
+        <h2>
+          GOOD DESIGN GETS ATTENTION.<br /><em>GOOD RETENTION GETS RESULTS.</em>
+        </h2>
+        <p>
+          We combine visual design, ecommerce thinking and campaign storytelling
+          to create customer communications that feel like the brand — not
+          another template.
+        </p>
+        <div class="principles">
+          <div><b>Brand first</b></div>
+          <div><b>Customer first</b></div>
+          <div><b>Campaign first</b></div>
+        </div>
+      </section> -->
+
+      <section class="industries section-pad reveal">
+        <h2>
+          BUILT FOR BRANDS<br />THAT CARE ABOUT THE<br />CUSTOMER
+          <em>AFTER THE CLICK.</em>
+        </h2>
+        <div class="industry-list">
+          <span>Beauty</span><span>Fashion</span><span>Food</span
+          ><span>Wellness</span><span>Lifestyle</span><span>DTC</span>
+        </div>
+      </section>
+
+      <section class="proof section-pad reveal">
+        <h2>THE WORK<br />SPEAKS <em>FIRST.</em></h2>
+        <div class="proof-box">
+          <div><span>Client / brand</span><b>—</b></div>
+          <div><span>Campaign</span><b>—</b></div>
+          <div><span>Objective</span><b>—</b></div>
+          <div><span>What we created</span><b>—</b></div>
+          <div><span>Result</span><b>Real proof coming soon.</b></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-pad reveal">
+        <h2>HAVE A CAMPAIGN<br /><em>IN MIND?</em></h2>
+        <p>
+          Let's turn it into something your customers actually want to open.
+        </p>
+        <div>
+          <a class="button button-light" href="mailto:hello@bvrstudio.com"
+            >Start a project <span>↗</span></a
+          ><a class="contact-link" href="mailto:hello@bvrstudio.com"
+            >Let's talk ↗</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer section-pad">
+      <a class="brand" href="#top"
+        ><span class="brand-mark">BVR</span><span>STUDIO</span></a
+      >
+      <div class="footer-grid">
+        <div>
+          <span class="eyebrow">BEYOND VISUAL RANGE</span>
+          <p>Creative retention for brands<br />with something to say.</p>
+        </div>
+        <div>
+          <span class="eyebrow">Explore</span><a href="#work">Work</a
+          ><a href="#services">Services</a><a href="#process">Process</a>
+        </div>
+        <div>
+          <span class="eyebrow">Find us</span
+          ><a href="https://instagram.com" target="_blank">Instagram ↗</a
+          ><a href="https://linkedin.com" target="_blank">LinkedIn ↗</a
+          ><a href="mailto:hello@bvrstudio.com">hello@bvrstudio.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 BVR Studio</span><span>Beyond visual range</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
